@@ -1,0 +1,73 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv/
+
+#IDE 
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Data Files (IMPORTANT!)
+data/
+cb4a0cd3-0254-4e48-b348-d860b61419d3/
+*.sqlite3
+*.db
+*.bin
+*.pickle
+chroma.sqlite3
+
+# Cache Files
+cache/
+*.cache
+.cache/
+
+# Logs
+*.log
+logs/
+
+# Sensitive Files
+*.pem
+*.key
+certificate.*
+.env
+config.json
+secrets.json
+
+# Large Files
+*.csv
+dataset*.csv
+realistic_restaurant_reviews.csv
+
+# Gradio temporary files
+gradio_cached_examples/
+flagged/
+
+# Model files (if any)
+*.bin
+*.safetensors
+models/
+
+.gradio/
+.flagged/
+dataset1.csv
+
+# uv.lock file
+uv.lock
