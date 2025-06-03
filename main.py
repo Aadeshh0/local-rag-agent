@@ -1,5 +1,5 @@
 def main():
-    print("Hello from local-llm-school-agent!")
+    print("Hello from local-rag-agent!")
 
 
 if __name__ == "__main__":
