@@ -1,12 +1,11 @@
-# 📄 Local RAG Agent for Document-Based Question Answering
+# 📄 Local RAG Agent
 
-A local Retrieval-Augmented Generation (RAG) system that accepts PDF documents, processes the content, and enables contextual question answering using **LLaMA 3.2 via Ollama**, **Ollama Embeddings**, and **ChromaDB**, all through an interactive **Gradio** interface.
+A local Retrieval-Augmented Generation (RAG) system that accepts CSV, processes the content, and enables contextual question answering using **LLaMA 3.2 via Ollama**, **Ollama Embeddings**, and **ChromaDB**, all through an interactive **Gradio** interface.
 
 ---
 
 ## 🚀 Features
 
-- 📄 **PDF Parsing & Chunking**: Upload any PDF document and extract readable, structured text.
 - 🔍 **Contextual Q&A**: Ask questions about the document and get accurate, grounded responses from the local LLM.
 - 💡 **Fully Local Pipeline**: No internet or API calls required—runs entirely offline using Ollama and ChromaDB.
 - ⚡ **Fast Retrieval**: Vector similarity search ensures fast and relevant document chunk matching.
@@ -20,15 +19,13 @@ A local Retrieval-Augmented Generation (RAG) system that accepts PDF documents, 
 - **Embeddings**: Ollama Embeddings  
 - **Vector Store**: ChromaDB  
 - **Frontend**: Gradio  
-- **Document Parser**: PyMuPDF / pdfminer / pdfplumber (choose one based on your implementation)  
 - **Programming Language**: Python  
-- *(Support Libraries)*: NumPy, Pandas, LangChain (optional)
 
 ---
 
 ## 🧠 Architecture Overview
 
-PDF Upload  →  Text Extraction & Chunking  →  Ollama Embeddings (Vectorization)  →  ChromaDB (Vector Store for Retrieval)  →  User Query  →  Relevant Chunks Retrieved  →  LLaMA 3.2 (Local LLM Inference)  →  Answer (Context-Aware Response)
+CSV Upload  →  Text Extraction & Chunking  →  Ollama Embeddings (Vectorization)  →  ChromaDB (Vector Store for Retrieval)  →  User Query  →  Relevant Chunks Retrieved  →  LLaMA 3.2 (Local LLM Inference)  →  Answer (Context-Aware Response)
 
 ---
 
