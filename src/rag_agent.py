@@ -113,19 +113,3 @@ def handle_question(chain, retriever, question:str):
 
 
 
-
-
-
-
-
-# def create_chain(model_name : str, prompt_template : str):
-#     model = OllamaLLM(model = model_name)
-#     prompt = ChatPromptTemplate.from_template(prompt_template)
-
-#     return prompt | model
-
-# def handle_question(chain, retriever, question : str):
-#     return chain.invoke({
-#         'reviews' : retriever,
-#         'question' : question
-#     })
